@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(164, 164, 236);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header .container {
+    background-color: brown;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+hr {
+    border: 2px solid brown;
+}
+
+#add-book {
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#add-book:hover {
+    background-color: rgb(164, 164, 236);
+}
+
+.header h1 {
+    padding: 10px;
+    font-size: 2.7em;
+    text-align: center;
+}
+
+.form .container {
+    max-width: 350px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: 20px;
+}
+
+.form .field {
+    margin: 5px;
+    text-align: left;
+}
+
+#title, #author, #pages, #read {
+    width: 300px;
+    height: 40px;
+    border-style: none;
+    padding: 15px;
+}
+
+#confirm {
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    font-size: 1em;
+    margin-top: 15px;
+}
+
+#confirm:hover {
+    background-color: brown;
+}
+
+.content .library {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px;
+}
+
+.library .book {
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.book .title {
+    color: brown;
+}
+
+.delete-book {
+    border-style: none;
+    width: 60;
+    height: 20;
+    margin: 5px;
+}
+
+.delete-book:hover {
+    background-color: rgb(242, 140, 81);
+}
